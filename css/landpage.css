@@ -3,9 +3,9 @@
 
 :root {
 
-	--principal_background: #63ADF2;
-	--second_background: #22AA8D;
-	--third_background: #165144;
+	--principal_background: #4C5F8C;
+	--second_background: #9AC532;
+	--third_background: #97363F;
 
 
 	--principal_text: white;
@@ -13,7 +13,7 @@
 	--third_text: red;
 
 	--principal_button: transparent;
-	--second_button: #f2ed6f;
+	--second_button: #447D60;
 	--third_button: #165144;
 }
 
@@ -27,19 +27,27 @@
 
 }
 
+.border-secondary{
+	border-color: #4C5F8C !important;
+}
+
 /* bg-color overwrite */
 
 .bg-primary{
 	background-color: var(--principal_background) !important;
-	background-image: linear-gradient(#63ADF2,#2e5273) !important;
+	/*background-image: linear-gradient(#B2BE83,#C9C999) !important;*/
 	background-repeat:no-repeat !important;
 	background-attachment: fixed;
 }
 
 .bg-secondary{
 	background-color: var(--second_background) !important;
-
 }
+
+.bg-third{
+	background-color: var(--third_background) !important;
+}
+
 
 .bg-image{
 	background-color: white !important;
@@ -165,12 +173,12 @@
 
 .profile-photo{
 
-  	height: 200px;
-  	width: 200px;
-  	max-height: 200px;
-  	max-width: 200px;
-  	min-height: 200px;
-  	min-width: 200px
+  	height: 285px;
+  	width: 285px;
+  	max-height: 285px;
+  	max-width: 285px;
+  	min-height: 285px;
+  	min-width: 285px
 
 }
 
