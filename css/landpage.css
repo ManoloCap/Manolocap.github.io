@@ -1,0 +1,177 @@
+
+/* Theme vars */
+
+:root {
+
+	--principal_background: #63ADF2;
+	--second_background: #22AA8D;
+	--third_background: #165144;
+
+
+	--principal_text: white;
+	--second_text: black;
+	--third_text: red;
+
+	--principal_button: transparent;
+	--second_button: #f2ed6f;
+	--third_button: #165144;
+}
+
+/* text-color overwrite */
+.text-primary{
+	color: var(--principal_text) !important;
+}
+
+.text-secondary{
+	color: var(--second_button) !important;
+
+}
+
+/* bg-color overwrite */
+
+.bg-primary{
+	background-color: var(--principal_background) !important;
+	background-image: linear-gradient(#63ADF2,#2e5273) !important;
+	background-repeat:no-repeat !important;
+	background-attachment: fixed;
+}
+
+.bg-secondary{
+	background-color: var(--second_background) !important;
+
+}
+
+.bg-image{
+	background-color: white !important;
+
+}
+
+.bg-image-skill{
+	background-color: transparent !important;
+  	height: 100px;
+  	width: 100px;
+  	max-height: 100px;
+  	max-width: 100px;
+  	min-height: 100px;
+  	min-width: 100px;
+}
+/* General CSS */
+
+
+/* header section */
+
+.menu-text{
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* me section */
+
+.menu-me{
+
+	background: url('../img/me.png');
+  	background-repeat: no-repeat !important;
+  	background-size: 50px 50px !important;
+  	background-position: top;
+  	height: 75px;
+  	width: 80px;
+  	background-color: var(--principal_button);
+	border-radius: 25%;
+	transition: 0.3s;
+
+	display: flex;
+  	align-items: flex-end;
+  	justify-content: center;
+
+	
+}
+
+.menu-me:hover{
+	background-color: var(--second_button);
+	cursor:pointer;
+}
+
+.menu-skills{
+
+	background: url('../img/skills.png');
+  	background-repeat: no-repeat !important;
+  	background-size: 50px 50px !important;
+  	background-position: top;
+  	height: 75px;
+  	width: 80px;
+  	background-color: var(--principal_button);
+	border-radius: 25%;
+	transition: 0.3s;
+
+	display: flex;
+  	align-items: flex-end;
+  	justify-content: center;
+
+  	
+}
+
+.menu-skills:hover{
+	background-color: var(--second_button);
+	cursor:pointer;
+}
+
+.menu-projects{
+
+	background: url('../img/projects.png');
+  	background-repeat: no-repeat !important;
+  	background-size: 50px 50px !important;
+  	background-position: top;
+  	height: 75px;
+  	width: 80px;
+  	background-color: var(--principal_button);
+	border-radius: 25%;
+	transition: 0.3s;
+
+	display: flex;
+  	align-items: flex-end;
+  	justify-content: center;
+
+}
+.menu-projects:hover{
+	background-color: var(--second_button);
+	cursor:pointer;
+}
+
+
+.menu-contact{
+
+	background: url('../img/contact.png');
+  	background-repeat: no-repeat !important;
+  	background-size: 50px 50px !important;
+  	background-position: top;
+  	height: 75px;
+  	width: 80px;
+  	background-color: var(--principal_button);
+	border-radius: 25%;
+	transition: 0.3s;
+
+	display: flex;
+  	align-items: flex-end;
+  	justify-content: center;
+}
+
+.menu-contact:hover{
+	background-color: var(--second_button);
+	cursor:pointer;
+}
+
+
+/* Me seection */
+
+.profile-photo{
+
+  	height: 200px;
+  	width: 200px;
+  	max-height: 200px;
+  	max-width: 200px;
+  	min-height: 200px;
+  	min-width: 200px
+
+}
+
+
