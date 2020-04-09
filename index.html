@@ -11,6 +11,16 @@
     <link rel="stylesheet" type="text/css" href="css/landpage.css">
 
     <title>Manolocap!</title>
+
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
   </head>
   <body class='bg-primary'>
 
@@ -79,7 +89,7 @@
 
 
       <section id="skills">
-        <div class="row my-5 mx-5 h-25 mx-5 text-center bg-secondary">
+        <div class="row h-25 mx-5 text-center bg-secondary">
 
           <div class='col border border-secondary'>
             <div class='row'>
@@ -436,26 +446,34 @@
       </section>
 
       <section id="projects">
-        <div class="row my-5">
+        <div class="row">
 
 
-          <div class="col col-lg-12 col-md-12 col-sm-12 col-12 my-2">
+          <div class="col col-lg-7 col-md-7 col-sm-12 col-12 bg-third">
             <div id="project_carousel" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#project_carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#project_carousel" data-slide-to="1"></li>
-                <li data-target="#project_carousel" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
+              <div class="carousel-inner my-3">
+
                 <div class="carousel-item active">
-                  <img src="img/projects/pul.png" class="d-block w-25" alt="...">
+                  <img src="img/projects/urbits.png" class="d-block" alt="...">
+                  <div class="my-2">
+                    <h5 class='text-primary' style="font-weight: bold">Real state data visualizator</h5>
+                  </div>
                 </div>
+
                 <div class="carousel-item">
-                  <img src="img/skills/ae.png" class="d-block w-25" alt="...">
+                  <img src="img/projects/ia.png" class="d-block" alt="...">
+                  <div class="my-2">
+                    <h5 class='text-primary' style="font-weight: bold">Scheduler Genetic Algorithm </h5>
+                  </div>
                 </div>
+
                 <div class="carousel-item">
-                  <img src="img/skills/sass.png" class="d-block w-25" alt="...">
+                  <img src="img/projects/pul.png" class="d-block" alt="...">
+                  <div class="my-2">
+                    <h5 class='text-primary' style="font-weight: bold">Survey Mobile App</h5>
+                  </div>
                 </div>
+
               </div>
               <a class="carousel-control-prev" href="#project_carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -468,34 +486,122 @@
             </div>
           </div>
 
+          <div class="col col-lg-5 col-md-5 col-sm-12 col-12 text-center bg-third">
+
+            <div id="urbits-div" class="urbits-div">
+              <div class="my-auto text-center">
+                <h1 class="text-primary"> Description </h1>
+                <h5 class="text-secondary">Real state market data visualizator</h5>
+                <h1 class="text-primary"> Technologies </h1>
+                <table class="table table-bordered table-dark w-auto mx-auto table-border-radius">
+                  <tbody>
+                    <tr>
+                      <td>VueJs</td>
+                      <td>PostgreSQL</td>
+                      <td>GIS</td>
+                      <td>Python</td>
+                      <td>Javascript</td>
+                    </tr>
+                    <tr>
+                      <td>Nginx</td>
+                      <td>Gunicorn</td>
+                      <td>Django</td>
+                      <td>Gcloud</td>
+                      <td>Jupyter</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+            <div id="ga-div" class="ga-div">
+              <div class="my-auto text-center">
+                <h1 class="text-primary"> Description </h1>
+                <h5 class="text-secondary">Genetic-Alorithms IA project for university schedules</h5>
+                <h1 class="text-primary"> Technologies </h1>
+                <table class="table table-bordered table-dark w-auto mx-auto table-border-radius">
+                  <tbody>
+                    <tr>
+                      <td>Python</td>
+                      <td>Pandas</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+            <div id="pulp-div" class="pulp-div">
+              <div class="my-auto text-center">
+                <h1 class="text-primary"> Description </h1>
+                <h5 class="text-secondary">Mobile Survey-money reward app for Guatemala</h5>
+                <h1 class="text-primary"> Technologies </h1>
+                <table class="table table-bordered table-dark w-auto mx-auto table-border-radius">
+                  <tbody>
+                    <tr>
+                      <td>Ionic Framework</td>
+                      <td>Firebase</td>
+                      <td>Typescript</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+          </div>
+
+
         </div>
       </section>
 
-
+      <section id="contact">
+        <div class="row text-center">
+          <div class='col table-dark'>
+            <div class="my-3">
+              <a href="https://www.linkedin.com/in/manolocapilla/"><i class="fa fa-linkedin hover-icon" aria-hidden="true"></i></a> &nbsp; 
+              <a href="https://www.instagram.com/Manolocap/"><i class="fa fa-instagram hover-icon" aria-hidden="true"></i></a> &nbsp;
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <br>capilla.manolo@gmail.com
+            </div>
+          </div>
+      </div>
     </div>
 
 
 
 
     <script> 
-    $("a.toscroll").on('click',function(e) {
-      var url = e.target.href;
-      var hash = url.substring(url.indexOf("#")+1);
-      $('html, body').animate({
-          scrollTop: $('#'+hash).offset().top
-      }, 500);
-      return false;
-    });
+    $('#project_carousel').on('slide.bs.carousel', function (carousel) {
+      console.log(carousel.to)
+
+      if(carousel.to === 0){
+        document.getElementById("urbits-div").style.display = "block";
+        document.getElementById("ga-div").style.display = "none";
+        document.getElementById("pulp-div").style.display = "none"; 
+      }
+
+      if(carousel.to === 1){
+        document.getElementById("urbits-div").style.display = "none";
+        document.getElementById("ga-div").style.display = "block";
+        document.getElementById("pulp-div").style.display = "none"; 
+      }
+
+      if(carousel.to === 2){
+        document.getElementById("urbits-div").style.display = "none";
+        document.getElementById("ga-div").style.display = "none";
+        document.getElementById("pulp-div").style.display = "block"; 
+      }
+
+
+    })
     </script>
 
 
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
   </body>
 </html>

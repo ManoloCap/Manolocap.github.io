@@ -42,7 +42,7 @@
 }
 
 .text-secondary{
-	color: var(--second_button) !important;
+	color: var(--second_text) !important;
 
 }
 
@@ -72,7 +72,13 @@
 	background-color: white !important;
 
 }
+.bg-footer{
+	background-color: #262626 !important;
+}
 
+.hover-icon:hover{
+	color: var(--third_background) !important;
+}
 .bg-image-skill{
 	background-color: transparent !important;
   	height: 100px;
@@ -242,4 +248,32 @@ html {
 .carousel-item img {
   display: block;
   margin: auto;
+  min-height: 200px;
+  min-width: : 200px;
+  max-height: 200px;
+  max-width: : 100px;
+}
+
+
+.technologie_square {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.table-border-radius {
+	border: none !important;
+}
+
+.urbits-div {
+	display: inline;
+}
+
+.ga-div {
+	display: none;
+}
+
+.pulp-div {
+	display: none;
 }
