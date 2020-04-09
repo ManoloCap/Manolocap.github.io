@@ -84,7 +84,15 @@
 }
 /* General CSS */
 
+html {
+  scroll-behavior: smooth;
+}
 
+.mobile-menu{
+	z-index: 1;
+    background-color: white;
+    display: none;
+}
 /* header section */
 
 .menu-text{
@@ -202,3 +210,36 @@
 }
 
 
+
+#project-carousel {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-indicators {
+  margin-bottom: -35px;
+}
+
+.carousel-indicators>li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  background-color: transparent;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.parent {
+  min-height: 200px;
+}
+
+.carousel-item img {
+  display: block;
+  margin: auto;
+}
