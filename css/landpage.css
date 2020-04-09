@@ -1,10 +1,29 @@
 
 /* Theme vars */
+/*
 
 :root {
 
 	--principal_background: #4C5F8C;
 	--second_background: #9AC532;
+	--third_background: #97363F;
+
+
+	--principal_text: white;
+	--second_text: black;
+	--third_text: red;
+
+	--principal_button: transparent;
+	--second_button: #447D60;
+	--third_button: #165144;
+}
+
+*/
+
+:root {
+
+	--principal_background: #3A4E48;
+	--second_background: #8B9D83;
 	--third_background: #97363F;
 
 
